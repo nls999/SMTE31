@@ -36,7 +36,7 @@
         <scene sceneID="ksD-49-hSn">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="Tp8-KR-4zT" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="jBx-k7-r8W">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -156,9 +156,6 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="tekstveld:" destination="mnH-YS-FyT" eventType="editingDidEnd" id="aqf-Uc-I7y"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSV-bM-dBV">
                                 <rect key="frame" x="122" y="116" width="78" height="30"/>

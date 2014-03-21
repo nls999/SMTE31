@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Menu-->
+        <!--Menu View Controller - Menu-->
         <scene sceneID="mj2-NN-voq">
             <objects>
-                <viewController title="Menu" id="Trg-ze-aIC" sceneMemberID="viewController">
+                <viewController title="Menu" id="Trg-ze-aIC" customClass="MenuViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GuK-Pq-rrd"/>
                         <viewControllerLayoutGuide type="bottom" id="Yz3-xU-FAY"/>
@@ -64,12 +64,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QKo-aW-6ME" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-863" y="-123"/>
+            <point key="canvasLocation" x="-897" y="-165"/>
         </scene>
-        <!--Table View Controller - Oefeningen-->
+        <!--Oefeningen View Controller - Oefeningen-->
         <scene sceneID="1Ad-uB-UZb">
             <objects>
-                <tableViewController title="Oefeningen" id="rM0-9m-vLG" sceneMemberID="viewController">
+                <tableViewController title="Oefeningen" id="rM0-9m-vLG" customClass="OefeningenViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="6tT-a2-gHT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,7 +83,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="6gP-08-Nkh" kind="push" trigger="accessoryAction" id="nx0-55-pHN"/>
+                                    <segue destination="6gP-08-Nkh" kind="push" trigger="accessoryAction" id="4cd-Pa-EnE"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -93,15 +93,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="tUh-89-e3p"/>
+                    <keyCommands/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfV-FA-RrV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-336" y="193"/>
+            <point key="canvasLocation" x="-336" y="171"/>
         </scene>
-        <!--View Controller - Oefening Afbeelding-->
+        <!--Afbeelding View Controller - Oefening Afbeelding-->
         <scene sceneID="fuY-uW-OcF">
             <objects>
-                <viewController title="Oefening Afbeelding" id="Hhc-HZ-G6W" sceneMemberID="viewController">
+                <viewController title="Oefening Afbeelding" id="Hhc-HZ-G6W" customClass="AfbeeldingViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rv8-4l-hpw"/>
                         <viewControllerLayoutGuide type="bottom" id="Pkt-4Q-IMP"/>
@@ -117,17 +118,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="C7t-cB-HiX"/>
+                    <tabBarItem key="tabBarItem" title="Afbeelding" id="C7t-cB-HiX"/>
                     <navigationItem key="navigationItem" id="06W-sh-sDH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g8K-dR-7px" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="660" y="425"/>
+            <point key="canvasLocation" x="660" y="403"/>
         </scene>
-        <!--View Controller - Info oefening-->
+        <!--Info Oefening View Controller - Info oefening-->
         <scene sceneID="xO3-MQ-cBH">
             <objects>
-                <viewController title="Info oefening" id="enb-NV-NjH" sceneMemberID="viewController">
+                <viewController title="Info oefening" id="enb-NV-NjH" customClass="InfoOefeningViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Oo-bs-sMA"/>
                         <viewControllerLayoutGuide type="bottom" id="uxH-Oc-0Gv"/>
@@ -140,24 +141,24 @@
                                 <rect key="frame" x="0.0" y="94" width="320" height="210"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">INFO OVER OEFENING.         Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">INFO OVER OEFENING.         Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="q8o-Lq-Bah"/>
+                    <tabBarItem key="tabBarItem" title="Info" id="q8o-Lq-Bah"/>
                     <navigationItem key="navigationItem" id="Owm-8b-Cml"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EsX-ly-dRb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="660" y="-193"/>
         </scene>
-        <!--View Controller - LooprouteBepalen-->
+        <!--Looproute View Controller - Looproute-->
         <scene sceneID="4rt-w6-PL5">
             <objects>
-                <viewController title="LooprouteBepalen" id="5nJ-Hb-OES" sceneMemberID="viewController">
+                <viewController title="Looproute" id="5nJ-Hb-OES" customClass="LooprouteViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BQY-1n-fec"/>
                         <viewControllerLayoutGuide type="bottom" id="tRI-uE-UMs"/>
@@ -196,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fBS-ob-jUo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-364" y="-516"/>
+            <point key="canvasLocation" x="-336" y="-474"/>
         </scene>
         <!--Map View Controller - Map-->
         <scene sceneID="Rh1-TU-Y6I">
@@ -221,7 +222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yaE-Rd-0Uj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116" y="-516"/>
+            <point key="canvasLocation" x="124" y="-474"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nh4-JU-kdV">
@@ -243,12 +244,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ku-Mj-yOx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1341" y="-135"/>
+            <point key="canvasLocation" x="-1339" y="-165"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Oefening Tab View Controller-->
         <scene sceneID="JzQ-1g-SJD">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="6gP-08-Nkh" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="6gP-08-Nkh" customClass="OefeningTabViewController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Evc-Ia-iuw"/>
                     <nil key="simulatedBottomBarMetrics"/>
@@ -257,13 +258,21 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Hhc-HZ-G6W" kind="relationship" relationship="viewControllers" id="T9u-ab-5Uc"/>
                         <segue destination="enb-NV-NjH" kind="relationship" relationship="viewControllers" id="5aO-vY-iq1"/>
+                        <segue destination="Hhc-HZ-G6W" kind="relationship" relationship="viewControllers" id="T9u-ab-5Uc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8el-Bo-DrT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="134" y="193"/>
+            <point key="canvasLocation" x="142" y="171"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="7dz-Mi-mk1">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Y5a-2n-gBV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="srW-SD-ql9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124" y="755"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

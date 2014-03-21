@@ -23,6 +23,12 @@
 		F58C603D18BEBBB00050BF11 /* Fit_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C603C18BEBBB00050BF11 /* Fit_Tests.m */; };
 		F58C604818BEC60F0050BF11 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C604718BEC60F0050BF11 /* MapViewController.m */; };
 		F58C604A18BEC74A0050BF11 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58C604918BEC74A0050BF11 /* MapKit.framework */; };
+		F58C604D18BF3C4B0050BF11 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C604C18BF3C4B0050BF11 /* MenuViewController.m */; };
+		F58C605018BF3C830050BF11 /* LooprouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C604F18BF3C830050BF11 /* LooprouteViewController.m */; };
+		F58C605918BF3CF60050BF11 /* InfoOefeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C605818BF3CF60050BF11 /* InfoOefeningViewController.m */; };
+		F58C605C18BF3D050050BF11 /* AfbeeldingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C605B18BF3D050050BF11 /* AfbeeldingViewController.m */; };
+		F58C605F18BF3E430050BF11 /* OefeningenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C605E18BF3E430050BF11 /* OefeningenViewController.m */; };
+		F58C606218BF3EC80050BF11 /* OefeningTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C606118BF3EC80050BF11 /* OefeningTabViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,18 @@
 		F58C604618BEC60F0050BF11 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		F58C604718BEC60F0050BF11 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		F58C604918BEC74A0050BF11 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F58C604B18BF3C4B0050BF11 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		F58C604C18BF3C4B0050BF11 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		F58C604E18BF3C830050BF11 /* LooprouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LooprouteViewController.h; sourceTree = "<group>"; };
+		F58C604F18BF3C830050BF11 /* LooprouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LooprouteViewController.m; sourceTree = "<group>"; };
+		F58C605718BF3CF60050BF11 /* InfoOefeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoOefeningViewController.h; sourceTree = "<group>"; };
+		F58C605818BF3CF60050BF11 /* InfoOefeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoOefeningViewController.m; sourceTree = "<group>"; };
+		F58C605A18BF3D050050BF11 /* AfbeeldingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfbeeldingViewController.h; sourceTree = "<group>"; };
+		F58C605B18BF3D050050BF11 /* AfbeeldingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfbeeldingViewController.m; sourceTree = "<group>"; };
+		F58C605D18BF3E430050BF11 /* OefeningenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OefeningenViewController.h; sourceTree = "<group>"; };
+		F58C605E18BF3E430050BF11 /* OefeningenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OefeningenViewController.m; sourceTree = "<group>"; };
+		F58C606018BF3EC80050BF11 /* OefeningTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OefeningTabViewController.h; sourceTree = "<group>"; };
+		F58C606118BF3EC80050BF11 /* OefeningTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OefeningTabViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +140,24 @@
 				F58C602018BEBBB00050BF11 /* AppDelegate.h */,
 				F58C602118BEBBB00050BF11 /* AppDelegate.m */,
 				F58C602318BEBBB00050BF11 /* Main.storyboard */,
+				F58C606018BF3EC80050BF11 /* OefeningTabViewController.h */,
+				F58C606118BF3EC80050BF11 /* OefeningTabViewController.m */,
+				F58C605D18BF3E430050BF11 /* OefeningenViewController.h */,
+				F58C605E18BF3E430050BF11 /* OefeningenViewController.m */,
+				F58C605A18BF3D050050BF11 /* AfbeeldingViewController.h */,
+				F58C605B18BF3D050050BF11 /* AfbeeldingViewController.m */,
+				F58C605718BF3CF60050BF11 /* InfoOefeningViewController.h */,
+				F58C605818BF3CF60050BF11 /* InfoOefeningViewController.m */,
+				F58C604E18BF3C830050BF11 /* LooprouteViewController.h */,
+				F58C604F18BF3C830050BF11 /* LooprouteViewController.m */,
 				F58C604618BEC60F0050BF11 /* MapViewController.h */,
 				F58C604718BEC60F0050BF11 /* MapViewController.m */,
 				F58C602618BEBBB00050BF11 /* ViewController.h */,
 				F58C602718BEBBB00050BF11 /* ViewController.m */,
 				F58C602918BEBBB00050BF11 /* Images.xcassets */,
 				F58C601818BEBBB00050BF11 /* Supporting Files */,
+				F58C604B18BF3C4B0050BF11 /* MenuViewController.h */,
+				F58C604C18BF3C4B0050BF11 /* MenuViewController.m */,
 			);
 			path = "Fit+";
 			sourceTree = "<group>";
@@ -260,8 +290,14 @@
 			files = (
 				F58C602818BEBBB00050BF11 /* ViewController.m in Sources */,
 				F58C602218BEBBB00050BF11 /* AppDelegate.m in Sources */,
+				F58C605018BF3C830050BF11 /* LooprouteViewController.m in Sources */,
+				F58C605F18BF3E430050BF11 /* OefeningenViewController.m in Sources */,
+				F58C605C18BF3D050050BF11 /* AfbeeldingViewController.m in Sources */,
 				F58C601E18BEBBB00050BF11 /* main.m in Sources */,
+				F58C605918BF3CF60050BF11 /* InfoOefeningViewController.m in Sources */,
+				F58C606218BF3EC80050BF11 /* OefeningTabViewController.m in Sources */,
 				F58C604818BEC60F0050BF11 /* MapViewController.m in Sources */,
+				F58C604D18BF3C4B0050BF11 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +506,7 @@
 				F58C604218BEBBB00050BF11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F58C604318BEBBB00050BF11 /* Build configuration list for PBXNativeTarget "Fit+Tests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +515,7 @@
 				F58C604518BEBBB00050BF11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
